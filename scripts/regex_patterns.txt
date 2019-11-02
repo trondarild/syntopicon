@@ -3,6 +3,6 @@ regex patterns:
 
 chapter (.{1,4}) ([A-Z]+) *\n+INTRODUCTION -  chapter
 
-(?.)<ref_start>(.*?)<ref_end>
+(?s)<ref_start>(.*?)<ref_end> - block of text between tags
 
 ^([0-9]{1,2}[a-z]*\.\(*) topic indeces
