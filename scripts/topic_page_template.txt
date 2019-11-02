@@ -1,0 +1,9 @@
+[[Great books of the Western world - A Syntopicon (book)]] : [[<topic_name> (the great ideas)]]
+
+==Intuition==
+'''<topic_name>''' (also called [[also called::<idea_name> <topic_ix> (the great ideas)]])
+
+==References==
+<topic_ref_list>
+
+[[Category:<idea_name> (syntopicon)]]
