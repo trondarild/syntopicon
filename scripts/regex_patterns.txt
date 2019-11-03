@@ -1,4 +1,5 @@
 regex patterns:
+
 \n^(?![0-9]+ [A-Z]{2}) topic list
 
 chapter (.{1,4}) ([A-Z]+) *\n+INTRODUCTION -  chapter
@@ -6,3 +7,5 @@ chapter (.{1,4}) ([A-Z]+) *\n+INTRODUCTION -  chapter
 (?s)<ref_start>(.*?)<ref_end> - block of text between tags
 
 ^([0-9]{1,2}[a-z]*\.\(*) topic indeces
+
+^(#+) ([A-Z]+.+) -> $1 [[$2 (the great ideas)|$2]] replace topics with links
