@@ -9,3 +9,4 @@ chapter (.{1,4}) ([A-Z]+) *\n+INTRODUCTION -  chapter
 ^([0-9]{1,2}[a-z]*\.\(*) topic indeces
 
 ^(#+) ([A-Z]+.+) -> $1 [[$2 (the great ideas)|$2]] replace topics with links
+

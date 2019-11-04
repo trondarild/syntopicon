@@ -82,3 +82,11 @@ for topic in topics:
 
 print out
 # add page to a file for the current idea 
+filename = ideaname + "_ref.txt"
+fileobj = open(filename, 'w') # open for writing
+fileobj.write(out)
+fileobj.close()
+
+print "wrote to file: " + filename
+print
+print
