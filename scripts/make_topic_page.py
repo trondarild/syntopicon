@@ -44,7 +44,7 @@ fileobj.close()
 
 
 # for each idea, extract references
-ideaname = re.match(r'==Chapter .+? ([A-Z]+)==', textblock).group(1)
+ideaname = re.match(r'==Chapter .+? ([A-Z ]+)==', textblock).group(1)
 ideaname = ideaname.title()
 # for references, extract each topic and its references
 topics = re.split('\#', textblock)
