@@ -62,6 +62,7 @@ for topic in topics:
 			continue
 		line_cmplx = re.split(' ', line, 1)
 		booknum = line_cmplx[0]
+		print booknum+'\n'
 		tail = line_cmplx[1]
 		booklnk = bookname.replace('#', booknum).replace('refname', booknum)
 		topic_refs = topic_refs + '* ' + booklnk + ' ' + tail + '\n'

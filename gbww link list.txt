@@ -28,7 +28,7 @@
 27 https://archive.org/details/greatbooksofwest27ency
 28 https://archive.org/details/greatbooksofwest28unse
 29 https://archive.org/details/greatbooksofwest29ency
-
+30 Bacon
 31 https://archive.org/details/greatbooksofwest31ency
 32 https://archive.org/details/greatbooksofwest32ency
 33 https://archive.org/details/greatbooksofwest33ency
@@ -41,7 +41,7 @@
 39 https://archive.org/details/greatbooksofwest39ency
 39 https://archive.org/details/greatbooksofwest39hutc
 40 https://archive.org/details/greatbooksofwest0040unse
-
+41 gibbon
 42 https://archive.org/details/greatbooksofwest0042unse
 43 https://archive.org/details/greatbooksofwest43hutc
 44 https://archive.org/details/greatbooksofwest44ency
@@ -54,6 +54,8 @@
 50 https://archive.org/details/greatbooksofwest0050unse
 51 https://archive.org/details/greatbooksofwest51ency
 52 https://archive.org/details/greatbooksofwest520ency
+53 https://archive.org/details/principlesofpsyc53jame
+54 freud
 euclid https://archive.org/details/in.ernet.dli.2015.126332
 shspr 2 https://archive.org/details/in.ernet.dli.2015.126328
 tacitus https://archive.org/details/in.ernet.dli.2015.126329
