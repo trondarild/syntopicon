@@ -1,5 +1,8 @@
 regex patterns:
 
+([a-z",\.;]) \n(["a-zA-Z]) -> $1 $2
+([a-z",;\.]) \n{3,7}(["a-zA-Z])
+
 \n^(?![0-9]+ [A-Z]{2}) topic list
 
 chapter (.{1,4}) ([A-Z]+) *\n+INTRODUCTION -  chapter
