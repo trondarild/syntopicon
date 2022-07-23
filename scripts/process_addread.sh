@@ -1,0 +1,1 @@
+cat ar_in.txt|perl -0777 -p -e 's/ \n\n+/\n/g; s/- \n([a-z])/$1/g; s/(.)\n\./$1./g; s/( )*\n([a-zA-Z][a-z])/$1$2$3/g; s/(-)*\n([a-zA-Z][a-z])/$1$2$3/g' > ar_out.txt
