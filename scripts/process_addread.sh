@@ -1,2 +1,2 @@
-cat ar_in.txt|perl -0777 -p -e 's/ \n\n+/\n/g; s/- \n([a-z])/$1/g; s/(.)\n\./$1./g; s/( )*\n([a-zA-Z][a-z])/$1$2$3/g; s/(-)*\n([a-zA-Z][a-z])/$1$2$3/g; s/ ([A-Z]{3,}\. )/\n$1/g; s/\n\n+/\n/g; s/^([A-Z]{3,}\. )/* $1/mg; ' | sed '1 i\
+cat ar_in.txt|perl -0777 -p -e 's/ \n\n+/\n/g; s/- \n([a-z])/$1/g;  s/(.)\n\./$1./g; s/( )*\n([a-zA-Z][a-z])/$1$2$3/g; s/(-)*\n([a-zA-Z][a-z])/$1$2$3/g;  s/\n\n+/\n/g; s/ ([A-Z]{3,}\.)/\n* $1/g;   s/^([A-Z]\. )*([A-Z]{3,})[\.,]/* $1$2./mg; ' | sed '1 i\
 =====Additional Readings=====' > ar_out.txt
